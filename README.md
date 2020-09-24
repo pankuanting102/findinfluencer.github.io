@@ -1,6 +1,6 @@
 # influencersearch.github.io
 Please find links below for git repository and deployed applications.
-This api has limited 100 calls per month. so be sure to not to click button up to <b>5</b> times
+This api has limited 100 calls per month. so be sure to not to click button more than<b>5</b> times
 
 <b>Git Repository:</b>
 <br>https://github.com/pankuanting102/findinfluencer.github.io
