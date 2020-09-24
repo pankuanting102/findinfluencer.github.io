@@ -1,5 +1,7 @@
 
-
+$(".latinVerbiage").hide().fadeIn(800)
+$(".classTwo").hide().fadeIn(1600)
+$(".classFour").hide().fadeIn(2000)
 // get industy data when click
 $(".ui").on("click", function(event) {
     event.preventDefault()
@@ -157,7 +159,7 @@ $(".classFour").hide().fadeIn(2000)
     $("#latest-news-divider").append(newsDivider)
     $("#latest-news-divider").addClass("latest-divider")
    $("#recent-news").html("")
-   var newsURL ="http://cors-anywhere.herokuapp.com/http://newsapi.org/v2/everything?q=" + search + "&from=2020-09-20&sortBy=publishedAt&apiKey=0a351709175c440495f1faf157232979"; 
+   var newsURL ="https://newsapi.org/v2/everything?q=" + search + "&from=2020-09-20&sortBy=publishedAt&apiKey=0a351709175c440495f1faf157232979"; 
           $.ajax({
               url: newsURL, 
               method: 'get'
