@@ -24,10 +24,6 @@ var settings = {
 
 $.ajax(settings).done(function (response) {
 
-
-$(".latinVerbiage").hide().fadeIn(800)
-$(".classTwo").hide().fadeIn(1600)
-$(".classFour").hide().fadeIn(2000)
 // get industy data when click
 
     console.log($(this).text())
